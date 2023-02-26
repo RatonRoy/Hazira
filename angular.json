@@ -5,7 +5,11 @@
   "projects": {
     "Hazira": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "skipTests": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -94,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a8136eb8-eed4-4065-9e41-b4b87bf0176e"
   }
 }
