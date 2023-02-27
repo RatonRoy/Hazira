@@ -1,0 +1,40 @@
+.header-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-title-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title-text {
+  margin-left: 2rem;
+  letter-spacing: 1px;
+}
+.hazira-text {
+  color: rgb(129, 211, 187);
+}
+.top-header-icons-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.top-header-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgb(129, 211, 187);
+  color: white;
+  margin-left: 1rem;
+}
+.raw-icon-top-header {
+  color: white;
+}
+.login-icon {
+  display: inline-block;
+  margin-left: 5px;
+}

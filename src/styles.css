@@ -5,3 +5,37 @@ color selectors
 1. primary color : rgb(129, 211, 187),
 2. hover color : rgb(242, 253, 246)
 **************************/
+
+/* Reset the webpages  */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+  background-color: white;
+  color: rgb(20, 19, 19);
+}
+
+/* ************ Start global styles ******************* */
+.section-center {
+  width: 95%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  /* display: inline-block; */
+}
+ul {
+  list-style-type: none;
+}
+
+/* ************ End global styles ******************* */
