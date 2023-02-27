@@ -1,0 +1,51 @@
+.calendar-container {
+  background-color: white;
+}
+.month {
+  width: 100%;
+  padding: 0.5rem 0.4rem;
+}
+
+.month ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.month ul li {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.next,
+.prev {
+  font-size: 1rem;
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 0.6rem 0.3rem;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-row-gap: 1rem;
+  grid-column-gap: 0.4rem;
+}
+
+.weekdays li {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.weekdays li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white;
+  border-radius: 50%;
+}

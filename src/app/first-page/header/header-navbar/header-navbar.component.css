@@ -1,8 +1,12 @@
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(129, 211, 187);
-  padding: 0 2.5rem;
+  /* background-color: rgb(129, 211, 187); */
+  background-color: #1abc9c;
+  /* padding: 0 3.5rem; */
+  /* margin-left: 2rem; */
+  /* padding-left: 6rem; */
+  padding: 0 3.5rem 0 5rem;
 }
 .nav-items {
   display: flex;
@@ -22,5 +26,5 @@
   color: white;
 }
 h3 {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }

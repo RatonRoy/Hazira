@@ -9,6 +9,8 @@ import { SecondPageComponent } from './second-page/second-page.component';
 import { HeaderComponent } from './first-page/header/header.component';
 import { HeaderTopComponent } from './first-page/header/header-top/header-top.component';
 import { HeaderNavbarComponent } from './first-page/header/header-navbar/header-navbar.component';
+import { SidebarComponent } from './first-page/sidebar/sidebar.component';
+import { CalendarComponent } from './first-page/sidebar/calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { HeaderNavbarComponent } from './first-page/header/header-navbar/header-
     SecondPageComponent,
     HeaderComponent,
     HeaderTopComponent,
-    HeaderNavbarComponent
+    HeaderNavbarComponent,
+    SidebarComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
