@@ -3,6 +3,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.logo-container img {
+  cursor: pointer;
+}
 .logo-title-container {
   display: flex;
   justify-content: flex-start;
@@ -14,6 +17,7 @@
 }
 .hazira-text {
   color: rgb(129, 211, 187);
+  cursor: pointer;
 }
 .top-header-icons-container {
   display: flex;
@@ -37,4 +41,5 @@
 .login-icon {
   display: inline-block;
   margin-left: 5px;
+  cursor: pointer;
 }

@@ -1,0 +1,26 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(129, 211, 187);
+  padding: 0 2.5rem;
+}
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  padding: 1rem 1rem;
+}
+.nav-items:hover {
+  background-color: rgb(242, 253, 246);
+}
+.nav-item-img {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: white;
+}
+h3 {
+  font-size: 0.8rem;
+}
