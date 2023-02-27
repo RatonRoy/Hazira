@@ -11,6 +11,7 @@ import { HeaderTopComponent } from './first-page/header/header-top/header-top.co
 import { HeaderNavbarComponent } from './first-page/header/header-navbar/header-navbar.component';
 import { SidebarComponent } from './first-page/sidebar/sidebar.component';
 import { CalendarComponent } from './first-page/sidebar/calendar/calendar.component';
+import { EmployeesComponent } from './first-page/sidebar/employees/employees.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CalendarComponent } from './first-page/sidebar/calendar/calendar.compon
     HeaderTopComponent,
     HeaderNavbarComponent,
     SidebarComponent,
-    CalendarComponent
+    CalendarComponent,
+    EmployeesComponent
   ],
   imports: [
     BrowserModule,

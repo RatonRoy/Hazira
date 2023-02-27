@@ -1,8 +1,9 @@
 .sidebar-container {
-  width: 20%;
+  width: 25%;
   height: 100%;
   /* background-color: rgb(220, 220, 220); */
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-top: 0.5rem;
+  padding: 0 1rem;
 }

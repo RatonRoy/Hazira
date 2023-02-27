@@ -1,0 +1,29 @@
+.employees-container {
+  padding: 1.5rem 0rem;
+}
+.employees-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+.circleUser {
+  color: #1abc9c;
+}
+.employe-form-container {
+  margin-left: 2rem;
+}
+.employe-form-container div {
+  margin-bottom: 0.7rem;
+}
+.employe-form-container div:last-child {
+  margin-bottom: 0;
+}
+.employe-form-container div input {
+  font-size: 1rem;
+}
+.employe-form-container div label {
+  font-size: 1rem;
+  margin-left: 1rem;
+  display: inline-block;
+}
