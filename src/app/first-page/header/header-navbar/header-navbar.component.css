@@ -17,9 +17,14 @@
   cursor: pointer;
   transition: all ease 0.2s;
   padding: 1rem 1rem;
+  margin-left: 0.5rem;
 }
 .nav-items:hover {
   background-color: rgb(194, 235, 209);
+  /* color: #1abc9c; */
+}
+.nav-items:hover h3 {
+  color: #1abc9c;
 }
 .nav-item-img {
   display: block;
@@ -50,4 +55,7 @@ h3 {
 }
 .nav-shift-item .nav-arrow-down {
   visibility: visible;
+}
+.nav-shift-item h3 {
+  color: #1abc9c;
 }

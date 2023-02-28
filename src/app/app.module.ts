@@ -19,6 +19,9 @@ import { ShiftingInfoComponent } from './first-page/shifting-info/shifting-info.
 import { ShiftingNavbarComponent } from './first-page/shifting-info/shifting-navbar/shifting-navbar.component';
 import { ShiftingTableComponent } from './first-page/shifting-info/shifting-table/shifting-table.component';
 import { ShiftingEmployeeComponent } from './first-page/shifting-info/shifting-table/shifting-employee/shifting-employee.component';
+import { HeaderSecondComponent } from './second-page/header-second/header-second.component';
+import { SidebarSecondComponent } from './second-page/sidebar-second/sidebar-second.component';
+import { HaziraTableComponent } from './second-page/hazira-table/hazira-table.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +40,10 @@ import { ShiftingEmployeeComponent } from './first-page/shifting-info/shifting-t
     ShiftingInfoComponent,
     ShiftingNavbarComponent,
     ShiftingTableComponent,
-    ShiftingEmployeeComponent
+    ShiftingEmployeeComponent,
+    HeaderSecondComponent,
+    SidebarSecondComponent,
+    HaziraTableComponent
   ],
   imports: [
     BrowserModule,

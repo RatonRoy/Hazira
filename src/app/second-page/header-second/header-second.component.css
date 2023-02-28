@@ -1,0 +1,77 @@
+.header-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.second-page-header {
+  background-color: rgba(26, 188, 156, 0.2);
+}
+.logo-container img {
+  cursor: pointer;
+}
+.logo-title-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.top-header-icons-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.top-header-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgb(129, 211, 187);
+  color: white;
+  margin-left: 1rem;
+}
+.raw-icon-top-header {
+  color: white;
+}
+.login-icon {
+  display: inline-block;
+  margin-left: 5px;
+  cursor: pointer;
+}
+/* Mid container  */
+.header-mid-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.single-mid-item {
+  /* margin-left: 1rem; */
+  text-align: center;
+  transition: all ease 0.3s;
+  padding: 1rem;
+  cursor: pointer;
+}
+.single-mid-item h3 {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.single-mid-item:first-child {
+  margin-left: 0;
+}
+.single-mid-item:hover {
+  background-color: rgb(26, 188, 156);
+  color: white;
+}
+.single-mid-item:hover .mid-icon {
+  color: white;
+}
+.single-mid-item:hover h3 {
+  color: white;
+}
+.mid-icon {
+  color: rgb(26, 188, 156);
+  display: inline-block;
+  margin-bottom: 5px;
+}
+/* End of the  Mid container  */
