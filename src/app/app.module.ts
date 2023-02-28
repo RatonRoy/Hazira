@@ -12,6 +12,9 @@ import { HeaderNavbarComponent } from './first-page/header/header-navbar/header-
 import { SidebarComponent } from './first-page/sidebar/sidebar.component';
 import { CalendarComponent } from './first-page/sidebar/calendar/calendar.component';
 import { EmployeesComponent } from './first-page/sidebar/employees/employees.component';
+import { BranchComponent } from './first-page/sidebar/branch/branch.component';
+import { DesignationsComponent } from './first-page/sidebar/designations/designations.component';
+import { SkillsComponent } from './first-page/sidebar/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { EmployeesComponent } from './first-page/sidebar/employees/employees.com
     HeaderNavbarComponent,
     SidebarComponent,
     CalendarComponent,
-    EmployeesComponent
+    EmployeesComponent,
+    BranchComponent,
+    DesignationsComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

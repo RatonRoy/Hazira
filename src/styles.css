@@ -18,20 +18,20 @@ color selectors
 body {
   max-width: 1920px;
   /* background-color: white; */
-   background-color: rgb(220, 220, 220);
+  background-color: rgb(220, 220, 220);
   color: rgb(20, 19, 19);
 }
 
-.loading-container{
+.loading-container {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: darkslategray;
 }
-.loading-container h1{
+.loading-container h1 {
   font-size: 4rem;
-  letter-spacing : 2px;
+  letter-spacing: 2px;
   color: maroon;
 }
 /* ************ Start global styles ******************* */
@@ -49,6 +49,16 @@ img {
 }
 ul {
   list-style-type: none;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ************ End global styles ******************* */
