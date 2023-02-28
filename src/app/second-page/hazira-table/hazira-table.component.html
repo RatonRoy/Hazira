@@ -1,1 +1,39 @@
-<p>hazira-table works!</p>
+<section class="hazira-table">
+  <form class="hazira-form">
+    <div class="form-wrap">
+      <div class="timeline">
+        <label> Timeline </label> <br />
+        <select name=" timeline ">
+          <option value="7 days">Last 7 days</option>
+          <option value="15 days">Last 15 days</option>
+          <option value=" 30 days">Last 30 days</option>
+        </select>
+      </div>
+      <div class="begin-date">
+        <label> Start Date </label> <br />
+        <input
+          type="date"
+          name="begin"
+          placeholder="dd-mm-yyyy"
+          value=""
+          min="1997-01-01"
+          max="2023-12-31"
+        />
+      </div>
+      <div class="end-date">
+        <label for="cars"> End Date </label> <br />
+        <input
+          type="date"
+          name="begin"
+          placeholder="dd-mm-yyyy"
+          value=""
+          min="1997-01-01"
+          max="2023-12-31"
+        />
+      </div>
+      <input type="submit" value=" Apply " class="btn-submit" />
+      <input type="reset" value="Reset Filter " class="btn-reset" />
+    </div>
+    <button type="button" class="btn-export">Export &#x25BC;</button>
+  </form>
+</section>

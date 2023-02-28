@@ -1,0 +1,87 @@
+.hazira-table {
+  margin: 1rem 0;
+}
+/* form styles  */
+.hazira-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.form-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.timeline {
+}
+.timeline label {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+  letter-spacing: 1px;
+  color: rgb(0, 0, 0, 0.5);
+  display: inline-block;
+}
+.timeline select {
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+.begin-date {
+  margin-left: 1.5rem;
+}
+.begin-date label {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+  display: inline-block;
+}
+.begin-date input {
+  padding: 0.3rem 0.4rem;
+  font-size: 1rem;
+  display: inline-block;
+  cursor: pointer;
+}
+.end-date {
+  margin-left: 1.5rem;
+}
+.end-date label {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+  display: inline-block;
+}
+.end-date input {
+  padding: 0.3rem 0.4rem;
+  font-size: 1rem;
+  display: inline-block;
+  cursor: pointer;
+}
+.btn-submit {
+  border: none;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  background-color: #1abc9c;
+  color: white;
+  display: inline-block;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+.btn-reset {
+  border: none;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  background-color: rgb(14, 82, 209);
+  color: white;
+  display: inline-block;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+.btn-export {
+  border: 1px solid #1abc9c;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  /* background-color: rgb(14, 82, 209); */
+  color: #1abc9c;
+  display: inline-block;
+  /* margin-left: 1.5rem; */
+  cursor: pointer;
+}
+/* end of  form styles  */
