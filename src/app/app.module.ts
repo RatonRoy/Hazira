@@ -15,6 +15,10 @@ import { EmployeesComponent } from './first-page/sidebar/employees/employees.com
 import { BranchComponent } from './first-page/sidebar/branch/branch.component';
 import { DesignationsComponent } from './first-page/sidebar/designations/designations.component';
 import { SkillsComponent } from './first-page/sidebar/skills/skills.component';
+import { ShiftingInfoComponent } from './first-page/shifting-info/shifting-info.component';
+import { ShiftingNavbarComponent } from './first-page/shifting-info/shifting-navbar/shifting-navbar.component';
+import { ShiftingTableComponent } from './first-page/shifting-info/shifting-table/shifting-table.component';
+import { ShiftingEmployeeComponent } from './first-page/shifting-info/shifting-table/shifting-employee/shifting-employee.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,11 @@ import { SkillsComponent } from './first-page/sidebar/skills/skills.component';
     EmployeesComponent,
     BranchComponent,
     DesignationsComponent,
-    SkillsComponent
+    SkillsComponent,
+    ShiftingInfoComponent,
+    ShiftingNavbarComponent,
+    ShiftingTableComponent,
+    ShiftingEmployeeComponent
   ],
   imports: [
     BrowserModule,
