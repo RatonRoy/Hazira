@@ -9,24 +9,26 @@
   font-size: 1rem;
   width: 200px;
   /* font-weight: bold; */
-  background-color: whitesmoke;
+  background-color: white;
+  cursor: pointer;
 }
 .arrow-down {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 7px;
   display: inline-block;
-  /* margin-left: 10px; */
+  cursor: pointer;
 }
 .btn-week {
-  padding: 0.7rem 0.5rem;
+  padding: 0.5rem 0.8rem;
   border: 1px solid #1abc9c;
   border-radius: 1.3rem;
   color: #1abc9c;
   font-size: 1rem;
   width: 110px;
   /* font-weight: bold; */
-  background-color: whitesmoke;
+  background-color: white;
   margin-left: 1rem;
+  cursor: pointer;
 }
 .btn-tools {
   padding: 0.5rem 0.8rem;
@@ -36,19 +38,30 @@
   font-size: 1rem;
   width: 110px;
   /* font-weight: bold; */
-  background-color: whitesmoke;
+  background-color: white;
   margin-right: 1rem;
+  cursor: pointer;
 }
 .btn-public {
   padding: 0.5rem 0.8rem;
   border: 1px solid #1abc9c;
   border-radius: 1.3rem;
-  color: #1abc9c;
+  color: white;
   font-size: 1rem;
   width: 110px;
   /* font-weight: bold; */
-  background-color: whitesmoke;
+  background-color: #1abc9c;
+  cursor: pointer;
+  transition: all ease 0.4s;
+}
+.btn-public:hover {
+  color: #1abc9c;
+  background-color: white;
+  /* border: 1px solid #1abc9c; */
 }
 .shifting-title {
   color: #181717;
+}
+.angle-icon {
+  color: #1abc9c;
 }

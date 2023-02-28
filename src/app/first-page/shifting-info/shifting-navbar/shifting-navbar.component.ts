@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-shifting-navbar',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./shifting-navbar.component.css']
 })
 export class ShiftingNavbarComponent {
+  faAngleDown = faAngleDown;
 
 }
