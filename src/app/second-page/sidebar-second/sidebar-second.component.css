@@ -1,0 +1,49 @@
+.second-sidebar {
+  width: 25%;
+  height: 100%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+.second-sidebar-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: rgba(26, 188, 156, 0.2);
+  padding: 1rem;
+}
+.second-sidebar-item h4 {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+.second-sidebar-item fa-icon {
+  color: #1abc9c;
+}
+.time-sheets-container {
+  margin-bottom: 1rem;
+}
+.time-sheets-title {
+  display: flex;
+  background-color: rgba(26, 188, 156, 0.2);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.time-sheets-title h4 {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  /* background-color: rgba(26, 188, 156, 0.2); */
+  /* padding: 1rem; */
+}
+.time-sheets-title fa-icon {
+  color: #1abc9c;
+}
+.time-sheets-items {
+  margin-left: 2.5rem;
+}
+.time-sheets-items h4 {
+  font-size: 0.8rem;
+  background-color: rgba(26, 188, 156, 0.2);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
