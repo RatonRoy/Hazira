@@ -1,4 +1,4 @@
-.designations{
+.designations {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,17 +9,20 @@
 .designation-icon {
   color: #1abc9c;
 }
-.designations label{
-  font-size: 1.2rem;
+.designations label {
+  font-size: 1rem;
   font-weight: bold;
 }
-.designations select{
+.designations select {
   border: none;
   display: inline-block;
-  padding: 0.4rem 0;
+  padding: 0.2rem 0;
 }
 .designations select option {
   font-size: 1rem;
   text-align: center;
 }
-
+.first-option {
+  display: inline-block;
+  margin: 0.5rem 0;
+}
