@@ -65,3 +65,18 @@
 .angle-icon {
   color: #1abc9c;
 }
+
+@media (max-width: 1150px) {
+  .shifting-title {
+    font-size: 0.8rem;
+  }
+  .btn-employ-view {
+    font-size: 0.8rem;
+    width: 150px;
+  }
+  .btn-public, .btn-tools, .btn-week{
+    font-size: 0.8rem;
+    padding: 0.4rem 0.5rem;
+    width: 75px;
+  }
+}

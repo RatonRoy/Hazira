@@ -24,6 +24,10 @@
 .nav-items:hover h3 {
   color: #1abc9c;
 }
+.nav-items:hover .nav-item-img {
+  /* color: #1abc9c; */
+  background-color: #1abc9c;
+}
 
 .nav-arrow {
   display: inline-block;
