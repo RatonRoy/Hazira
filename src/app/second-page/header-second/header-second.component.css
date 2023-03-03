@@ -75,3 +75,15 @@
   margin-bottom: 5px;
 }
 /* End of the  Mid container  */
+
+@media (max-width: 1150px) {
+  .single-mid-item {
+    padding: 0.5rem;
+  }
+  .single-mid-item h3 {
+    font-size: 0.8rem;
+  }
+  .mid-icon {
+    font-size: 0.8rem;
+  }
+}

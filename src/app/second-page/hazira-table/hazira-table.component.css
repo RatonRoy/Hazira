@@ -18,7 +18,7 @@
   font-size: 1rem;
   margin-bottom: 0.4rem;
   letter-spacing: 1px;
-  color: rgb(0, 0, 0, 0.5);
+  color: rgb(0, 0, 0, 0.8);
   display: inline-block;
 }
 .timeline select {
@@ -86,6 +86,23 @@
 }
 /* end of  form styles  */
 
+@media (max-width: 1150px) {
+  .btn-export,
+  .btn-reset,
+  .btn-submit {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .timeline label {
+    font-size: 0.8rem;
+  }
+  .timeline select {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+
+}
+
 /* *******************
 Start of table styles
 ******************/
@@ -123,5 +140,4 @@ th {
 td {
   padding: 0.5rem 0.2rem;
   font-size: 0.6rem;
-  /* text-align: left; */
 }
