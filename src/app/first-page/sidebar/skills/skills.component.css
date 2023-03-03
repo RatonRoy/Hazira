@@ -1,16 +1,30 @@
-.skills-container {
-  padding: 1.5rem 0rem;
-}
-.skills-container hr {
-  background-color: rgba(128, 128, 128, 0.3);
-  margin-bottom: 1rem;
-}
-.skills-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.7rem;
-}
+
 .skills-icon {
   color: #1abc9c;
 }
+.skills{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0rem;
+  border-bottom: 2px dotted #1abc9c;
+  margin: 1rem 0;
+}
+.designation-icon {
+  color: #1abc9c;
+}
+.skills label{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.skills select{
+  border: none;
+  display: inline-block;
+  padding: 0.4rem 0;
+}
+.skills select option {
+  font-size: 1rem;
+  text-align: center;
+}
+
+

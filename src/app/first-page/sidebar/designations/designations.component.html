@@ -1,11 +1,13 @@
-<section class="designation-container">
-  <div class="designation-title flex-between">
-    <h3>
-      <fa-icon [icon]="faStackExchange" class="designation-icon"></fa-icon>
-      Designation
-    </h3>
-    <fa-icon [icon]="faAngleDown" class=""> </fa-icon>
-  </div>
-  <hr />
-</section>
+<form class="designations" autocomplete="off">
+  <label for="cars">
+    <fa-icon [icon]="faStackExchange" class="designation-icon"></fa-icon>
+    Designation</label
+  >
 
+  <select name="Designations">
+    <option hidden="true" value=""></option>
+    <option value="first-option">Front-End Dev</option>
+    <option value="second-option">Back-End Dev</option>
+    <option value="third-option">Full Stack Dev</option>
+  </select>
+</form>

@@ -1,10 +1,13 @@
-<section class="branch-container">
-  <div class="branch-title flex-between">
-    <h3>
-      <fa-icon [icon]="faCodeBranch" class="branch-icon"></fa-icon>
-      Branch
-    </h3>
-    <fa-icon [icon]="faAngleDown" class=""> </fa-icon>
-  </div>
-  <hr />
-</section>
+<form class="branches" autocomplete="off">
+  <label for="cars">
+    <fa-icon [icon]="faCodeBranch" class="branch-icon"></fa-icon>
+    Branch</label
+  >
+
+  <select name="branches">
+    <option hidden="true" value=""></option>
+    <option value="first-branch">Web Developer</option>
+    <option value="second-branch">Web Designer</option>
+    <option value="third-branch">App Developer</option>
+  </select>
+</form>
