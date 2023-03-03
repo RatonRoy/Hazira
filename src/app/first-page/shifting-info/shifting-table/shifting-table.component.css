@@ -36,7 +36,8 @@ tr:nth-child(even) {
 .td-employee {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  /* margin-left: 0.5rem; */
 }
 .td-employee img {
   display: inline-block;
@@ -49,6 +50,7 @@ tr:nth-child(even) {
   font-size: 0.8rem;
   font-weight: bold;
   color: #1abc9c;
+  margin-left: 0.5rem;
 }
 .td-employee-designation {
   font-size: 0.8rem;
@@ -58,11 +60,28 @@ tr:nth-child(even) {
   color: white;
 }
 .symbol-text {
-
 }
 .symbol-text h1 {
   /* width: 60%;
   height: 60%; */
-    background-color: #a7e6da;
-    padding: 1rem;
+  background-color: #a7e6da;
+  padding: 1rem;
+}
+
+@media (max-width: 1150px) {
+  th {
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  th, td{
+    width: 10%;
+  }
+  .td-employee {
+    justify-content: space-between;
+    margin-left: 0;
+  }
+  .td-second, .td-last, .th-second, .th-last{
+    width: 15%;
+  }
 }
