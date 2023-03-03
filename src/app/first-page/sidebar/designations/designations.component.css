@@ -22,6 +22,9 @@
   font-size: 1rem;
   text-align: center;
 }
+.designations select{
+  cursor: pointer;
+}
 .first-option {
   display: inline-block;
   margin: 0.5rem 0;

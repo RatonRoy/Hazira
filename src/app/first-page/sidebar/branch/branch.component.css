@@ -17,6 +17,7 @@
   border: none;
   display: inline-block;
   padding: 0.4rem 0;
+  cursor: pointer;
 }
 
 .options {
