@@ -19,11 +19,24 @@
   </div>
   <h1 class="shifting-title">Aug 20-26, 2022</h1>
   <div class="shifting-nav-right-button flex-between">
-    <div class="btn-tools flex-between">
+    <!-- <div class="btn-tools flex-between">
       Tools
 
       <fa-icon [icon]="faAngleDown" class="angle-icon"> </fa-icon>
-    </div>
+    </div> -->
+    <form class="btn-tools" autocomplete="off">
+  <label for="tools">
+    <!-- <fa-icon [icon]="faCodeBranch" class="branch-icon"></fa-icon> -->
+    Tools</label
+  >
+
+  <select name="branches">
+    <option hidden="true" value=""></option>
+    <option value="first-branch">Web</option>
+    <option value="second-branch">software</option>
+    <option value="third-branch">App</option>
+  </select>
+</form>
     <div class="btn-public flex-center">Public</div>
   </div>
 </nav>
