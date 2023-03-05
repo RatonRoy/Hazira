@@ -88,10 +88,9 @@
   border: 1px solid #1abc9c;
   padding: 0.7rem 1rem;
   font-size: 1rem;
-  /* background-color: rgb(14, 82, 209); */
   color: #1abc9c;
   display: inline-block;
-  /* margin-left: 1.5rem; */
+
   cursor: pointer;
   border-radius: 0.5rem;
 }
@@ -138,6 +137,9 @@ Start of table styles
 .main-table-head:last-child {
   width: 10%;
 }
+.main-table-data-row {
+  vertical-align: sub;
+}
 table {
   border-collapse: collapse;
 }
@@ -160,4 +162,15 @@ th {
 td {
   padding: 0.5rem 0.2rem;
   font-size: 0.6rem;
+}
+.total-hours {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1abc9c;
+}
+.main-table-last-row {
+  background-color: rgba(26, 188, 156, 0.2);
+}
+.main-table-last-row td {
+  color: rgb(0, 0, 0, 0.8);
 }
