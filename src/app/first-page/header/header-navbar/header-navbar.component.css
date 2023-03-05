@@ -61,6 +61,12 @@ h3 {
 /* ********************
 Start of the Responsive design
 **************************/
+@media (min-width: 1324px) and (max-width: 1570px) {
+  .third-item {
+    /* width: 122px; */
+  }
+}
+
 @media (max-width: 1324px) {
   .nav-wrapper {
     margin-left: 12%;

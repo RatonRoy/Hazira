@@ -18,7 +18,7 @@ color selectors
 body {
   max-width: 1920px;
   /* background-color: white; */
-  background-color: rgba(220, 220, 220, 0.3);
+  background-color: rgba(220, 220, 220, 0.1);
   color: rgb(20, 19, 19);
   margin: 0 auto;
 }
@@ -28,12 +28,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: darkslategray;
+  /* background-color: darkslategray; */
+  background-image: linear-gradient(to right, #00b09b, #96c93d);
 }
 .loading-container h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   letter-spacing: 2px;
-  color: maroon;
+  /* color: maroon; */
+  color: rgb(18, 4, 149);
 }
 /* ************ Start global styles ******************* */
 .section-center {
