@@ -2,11 +2,11 @@
   background-color: #1abc9c;
 }
 .nav-wrapper {
-  margin-left: 20%;
+  margin-left: 18%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 10%;
+  margin-right: 6%;
 }
 .nav-items {
   display: flex;

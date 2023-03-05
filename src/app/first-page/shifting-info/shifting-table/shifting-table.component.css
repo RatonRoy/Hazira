@@ -67,6 +67,7 @@ tr:nth-child(even) {
   /* background-color: #a7e6da; */
   padding: 1rem;
   color: #1abc9c;
+  cursor: pointer;
 }
 
 @media (max-width: 1150px) {
