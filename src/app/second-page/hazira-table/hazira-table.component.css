@@ -63,16 +63,26 @@
   display: inline-block;
   margin-left: 1.5rem;
   cursor: pointer;
+  border-radius: 0.5rem;
+  transition: all ease 0.3s;
+}
+.btn-submit:hover {
+  transform: scale(1.1);
 }
 .btn-reset {
   border: none;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem;
   font-size: 1rem;
-  background-color: rgb(14, 82, 209);
+  background-color: rgba(61, 117, 220, 0.8);
   color: white;
   display: inline-block;
   margin-left: 1.5rem;
   cursor: pointer;
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+}
+.btn-reset:hover {
+  transform: scale(1.1);
 }
 .btn-export {
   border: 1px solid #1abc9c;
@@ -83,9 +93,13 @@
   display: inline-block;
   /* margin-left: 1.5rem; */
   cursor: pointer;
+  border-radius: 0.5rem;
 }
 /* end of  form styles  */
 
+/* ****************
+Responsive design
+**************/
 @media (max-width: 1150px) {
   .btn-export,
   .btn-reset,
@@ -100,8 +114,10 @@
     font-size: 0.8rem;
     padding: 0.5rem;
   }
-
 }
+/* ***************
+End of the Responsive design
+**************/
 
 /* *******************
 Start of table styles
@@ -109,7 +125,7 @@ Start of table styles
 .main-table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  /* width: 100%; */
   background-color: white;
   margin-top: 1rem;
 }
@@ -124,6 +140,10 @@ Start of table styles
 }
 table {
   border-collapse: collapse;
+}
+
+.sub-table {
+  margin: 0 auto;
 }
 
 td,
