@@ -127,6 +127,7 @@ Start of table styles
   /* width: 100%; */
   background-color: white;
   margin-top: 1rem;
+  border-radius: 1.5rem;
 }
 .main-table-head {
   padding: 0.4rem;
@@ -150,7 +151,7 @@ table {
 
 td,
 th {
-  border: 1px solid rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(214, 211, 211, 0.7);
   text-align: center;
 }
 
