@@ -64,8 +64,9 @@ tr:nth-child(even) {
 .symbol-text h1 {
   /* width: 60%;
   height: 60%; */
-  background-color: #a7e6da;
+  /* background-color: #a7e6da; */
   padding: 1rem;
+  color: #1abc9c;
 }
 
 @media (max-width: 1150px) {

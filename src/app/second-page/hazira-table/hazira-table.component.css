@@ -147,6 +147,10 @@ table {
 
 .sub-table {
   margin: 0 auto;
+  width: 16%;
+}
+.sub-table:first-child, .sub-table:last-child{
+  width: 10%;
 }
 
 td,
