@@ -28,14 +28,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: darkslategray; */
-  background-image: linear-gradient(to right, #00b09b, #96c93d);
+   background-color:  #1abc9c;
+
 }
 .loading-container h1 {
-  font-size: 4.5rem;
+  font-size:5rem;
   letter-spacing: 2px;
   /* color: maroon; */
-  color: rgb(18, 4, 149);
+  color: white;
 }
 /* ************ Start global styles ******************* */
 .section-center {
