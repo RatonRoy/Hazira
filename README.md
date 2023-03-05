@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This project was deployed Here [Live](https://hazira.vercel.app/)
 
 ## Used in this project
-
+- Angular 
 - HTML5
 - CSS3
 - font-awesome icons
